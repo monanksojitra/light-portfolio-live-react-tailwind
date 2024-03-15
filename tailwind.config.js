@@ -1,0 +1,24 @@
+// tailwind.config.js
+module.exports = {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        primary: "#FFB400",
+        dark: {
+          100: "#2B2B2B",
+          200: "#18191A",
+          300: "#3A3B3C",
+          400: "#242526",
+          500: "#767676",
+        },
+        light: {
+          100: "#F0F0F6",
+          200: "#E4E6EB",
+        },
+      },
+    },
+    extend: {},
+  },
+  plugins: [],
+};
