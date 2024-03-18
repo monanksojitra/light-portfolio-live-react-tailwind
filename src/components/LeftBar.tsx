@@ -35,7 +35,7 @@ const LeftBar = () => {
     { id: 3, name: "Tailwind", pr: "70%" },
   ];
   return (
-    <div className="py-11 px-8 bg-light-100">
+    <div className="py-11 px-8 bg-light-400">
       <div className="flex flex-col items-center justify-center border-b-2 border-b-dark-500/50 pb-6">
         <div className="flex relative items-center justify-center rounded-full">
           <img
