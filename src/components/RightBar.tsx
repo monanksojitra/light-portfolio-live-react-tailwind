@@ -22,7 +22,7 @@ const RightBar = () => {
     { id: 6, Icon: IconMessage, route: "" },
   ];
   return (
-    <div className="bg-light-400 py-10 flex flex-col items-center gap-y-20 h-full">
+    <div className="bg-light-400 py-10 flex flex-col items-center gap-y-20 ">
       <div className="flex items-center justify-center my-2">
         <div onClick={() => setMode(!mode)}>
           {mode ? <IconMoonStars size={36} /> : <IconSun size={36} />}

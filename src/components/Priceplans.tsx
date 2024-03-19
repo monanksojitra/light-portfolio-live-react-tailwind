@@ -43,14 +43,17 @@ const Priceplans = () => {
               </li>
             ))}
           </ul>
-          <div className="h-9 shadow-xl flex items-center justify-center rounded-full px-5 my-8 text-sm font-semibold">
+          <div className="h-9 shadow-xl flex items-center justify-center rounded-full px-8 my-8 text-sm font-semibold">
             <p>ORDER NOW</p>
           </div>
         </div>
-        <div className="bg-light-400 flex flex-col text-dark-100 items-center capitalize pt-14">
-          <h2 className="text-2xl font-semibold ">silver</h2>
+        <div className="bg-light-400 flex flex-col text-dark-100 items-center capitalize shadow-lg">
+          <div className="flex items-center justify-center h-8 bg-primary mb-6 w-full">
+            <p className="text-base text-dark-100 font-medium">most popular</p>
+          </div>
+          <h2 className="text-2xl font-semibold ">gold</h2>
           <div className="flex gap-x-3 pt-5 items-baseline">
-            <h3 className="text-3xl font-bold">$0.00</h3>
+            <h3 className="text-3xl font-bold">$50.00</h3>
             <p className="text-base font-normal">/Hour</p>
           </div>
           <p className="text-dark-500 text-base px-6 text-center pt-3">
@@ -68,14 +71,14 @@ const Priceplans = () => {
               </li>
             ))}
           </ul>
-          <div className="h-9 shadow-xl rounded-full flex items-center justify-center bg-primary px-5 my-8 text-sm font-semibold">
+          <div className="h-9 shadow-xl rounded-full flex items-center justify-center bg-primary px-8 my-8 text-sm font-semibold">
             <p>ORDER NOW</p>
           </div>
         </div>
         <div className="bg-light-400 flex flex-col text-dark-100 items-center capitalize pt-14">
-          <h2 className="text-2xl font-semibold ">silver</h2>
+          <h2 className="text-2xl font-semibold ">dimond</h2>
           <div className="flex gap-x-3 pt-5 items-baseline">
-            <h3 className="text-3xl font-bold">$0.00</h3>
+            <h3 className="text-3xl font-bold">$80.00</h3>
             <p className="text-base font-normal">/Hour</p>
           </div>
           <p className="text-dark-500 text-base px-6 text-center pt-3">
@@ -90,7 +93,7 @@ const Priceplans = () => {
               </li>
             ))}
           </ul>
-          <div className="h-9 flex items-center justify-center shadow-xl rounded-full px-5 my-8 text-sm font-semibold">
+          <div className="h-9 flex items-center justify-center shadow-xl rounded-full px-8 my-8 text-sm font-semibold">
             <p>ORDER NOW</p>
           </div>
         </div>

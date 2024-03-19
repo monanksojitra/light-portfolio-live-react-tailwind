@@ -2,6 +2,13 @@ import { IconArrowRight } from "@tabler/icons-react";
 import React from "react";
 import Myservices from "./Myservices";
 import Priceplans from "./Priceplans";
+import Recommendations from "./Recommendations";
+import Education from "./Education";
+import WorkHistory from "./WorkHistory";
+import Portfolio from "./Portfolio";
+import Blog from "./Blog";
+import Contact from "./Contact";
+import Footer from "../layout/Footer";
 
 const Hero = () => {
   return (
@@ -30,6 +37,13 @@ const Hero = () => {
       </div>
       <Myservices />
       <Priceplans />
+      <Recommendations />
+      <Education />
+      <WorkHistory />
+      <Portfolio />
+      <Blog />
+      <Contact />
+      <Footer />
     </>
   );
 };
