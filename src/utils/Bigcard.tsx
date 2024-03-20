@@ -1,4 +1,11 @@
-import React from "react";
+interface propType {
+  title: string;
+  role: string;
+  date: string;
+  certificate: string;
+  description: string;
+  border?: boolean;
+}
 
 const Bigcard = ({
   title,
@@ -7,7 +14,7 @@ const Bigcard = ({
   certificate,
   description,
   border = true,
-}) => {
+}: propType) => {
   return (
     <div
       className={`grid lg:grid-cols-5 max-lg:space-y-2  border-dark-100/50 ${

@@ -1,4 +1,3 @@
-import Footer from "../layout/Footer";
 import Hero from "./Hero";
 import LeftBar from "./LeftBar";
 import RightBar from "./RightBar";

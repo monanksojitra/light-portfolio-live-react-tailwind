@@ -1,4 +1,3 @@
-import React from "react";
 import Heading from "../utils/Heading";
 import { IconPlus } from "@tabler/icons-react";
 
@@ -17,10 +16,10 @@ const Portfolio = () => {
   return (
     <div className="flex flex-col items-center justify-center w-full overflow-hidden">
       <Heading
-        subtitel={
+        subtitle={
           "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum"
         }
-        titel={"Portfolio"}
+        title={"Portfolio"}
       />
       <div className="my-11 ">
         <ul className="text-lg font-medium flex max-lg:flex-wrap max-lg:mx-10 items-center gap-y-2 gap-x-10 text-dark-100 ">

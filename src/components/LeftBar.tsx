@@ -7,9 +7,8 @@ import {
   IconBrandYoutube,
   IconCopy,
   IconDownload,
-  icons,
 } from "@tabler/icons-react";
-import React from "react";
+
 import Skill from "../utils/Skill";
 
 const LeftBar = () => {

@@ -1,13 +1,13 @@
-import { IconArrowRight, IconMathGreater } from "@tabler/icons-react";
-import React from "react";
+import { IconArrowRight } from "@tabler/icons-react";
+
 import Heading from "../utils/Heading";
 
 const Myservices = () => {
   return (
     <div className="flex flex-col gap-y-12 items-center justify-center mt-20 lg:mt-36">
       <Heading
-        titel="My Services"
-        subtitel=" Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        title="My Services"
+        subtitle=" Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. lorem ipsum"
       />
       <div className="grid md:grid-cols-2 lg:grid-cols-3 w-full px-7 gap-5">

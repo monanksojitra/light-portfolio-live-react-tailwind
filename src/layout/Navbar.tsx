@@ -1,7 +1,10 @@
 import { IconCategory } from "@tabler/icons-react";
-import React, { useState } from "react";
 
-const Navbar = ({ showProfile, showMenu }) => {
+interface propType {
+  showMenu: (value: boolean) => void;
+  showProfile: (value: boolean) => void;
+}
+const Navbar = ({ showProfile, showMenu }: propType) => {
   return (
     <div className="h-16 flex sm:hidden w-full  items-center justify-between px-10 bg-light-400">
       <div

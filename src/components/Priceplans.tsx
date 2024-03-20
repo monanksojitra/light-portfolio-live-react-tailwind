@@ -1,4 +1,3 @@
-import React from "react";
 import Heading from "../utils/Heading";
 import { IconCircleCheck, IconCircleX } from "@tabler/icons-react";
 
@@ -16,10 +15,10 @@ const Priceplans = () => {
   return (
     <div className="flex flex-col my-16 items-center justify-center">
       <Heading
-        subtitel={
+        subtitle={
           "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum"
         }
-        titel={"Price plans"}
+        title={"Price plans"}
       />
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mx-8 mt-12">
         <div className="bg-light-400 flex flex-col text-dark-100 items-center capitalize pt-14">

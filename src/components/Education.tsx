@@ -1,5 +1,5 @@
 import { IconDots } from "@tabler/icons-react";
-import React from "react";
+
 import Heading from "../utils/Heading";
 import Bigcard from "../utils/Bigcard";
 
@@ -10,10 +10,10 @@ const Education = () => {
         <IconDots color="#FFB400" size={80} />
       </div>
       <Heading
-        subtitel={
+        subtitle={
           "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum"
         }
-        titel={"Education"}
+        title={"Education"}
       />
       <div className="px-10 mt-12 mx-7 space-y-2 py-6  bg-light-400">
         <Bigcard

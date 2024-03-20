@@ -1,5 +1,4 @@
 import { IconMail, IconMap, IconPlugConnected } from "@tabler/icons-react";
-import React from "react";
 
 import { useForm } from "react-hook-form";
 
@@ -18,7 +17,7 @@ const Contact = () => {
     },
   });
 
-  const onSubmit = (data) => {
+  const onSubmit = (data: object) => {
     console.log(data);
     // Here you can handle the form submission, e.g., send the data to a server
   };

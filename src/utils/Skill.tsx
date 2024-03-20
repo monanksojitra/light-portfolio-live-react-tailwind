@@ -1,11 +1,9 @@
-import React from "react";
-
 interface items {
   id: number;
   name: string;
   pr: string;
 }
-const Skill = ({ skillList }) => {
+const Skill = ({ skillList }: { skillList: items[] }) => {
   return (
     <>
       {skillList.map((item: items) => (

@@ -1,5 +1,5 @@
 import { IconArrowRight } from "@tabler/icons-react";
-import React, { useState } from "react";
+
 import Myservices from "./Myservices";
 import Priceplans from "./Priceplans";
 import Recommendations from "./Recommendations";
@@ -12,6 +12,7 @@ import Footer from "../layout/Footer";
 import Navbar from "../layout/Navbar";
 import RightBar from "./RightBar";
 import LeftBar from "./LeftBar";
+import { useState } from "react";
 
 const Hero = () => {
   const [profile, showProfile] = useState(false);

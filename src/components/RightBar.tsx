@@ -8,7 +8,7 @@ import {
   IconSun,
   IconUserScan,
 } from "@tabler/icons-react";
-import React, { useState } from "react";
+import { useState } from "react";
 
 const RightBar = () => {
   const [mode, setMode] = useState(false);
