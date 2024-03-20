@@ -12,7 +12,11 @@ const Myservices = () => {
       />
       <div className="grid md:grid-cols-2 lg:grid-cols-3 w-full px-7 gap-5">
         <div className="bg-light-400 flex flex-col items-center gap-y-3 justify-center h-56 w-full">
-          <img src="/assets/coding.svg" className="" alt="" />
+          <img
+            src="https://raw.githubusercontent.com/monanksojitra/light-portfolio-live-react-tailwind/8224ab8804617846c7fa1c5253c8d86e8d3b1ee3/public/assets/Ad-pop-up.svg"
+            className=""
+            alt=""
+          />
           <h3 className="text-lg font-medium text-dark-100 capitalize">
             web development
           </h3>
@@ -21,7 +25,11 @@ const Myservices = () => {
           </p>
         </div>
         <div className="bg-light-400 flex flex-col items-center gap-y-3 justify-center h-56 w-full">
-          <img src="/assets/illustration.svg" className="" alt="" />
+          <img
+            src="https://raw.githubusercontent.com/monanksojitra/light-portfolio-live-react-tailwind/8224ab8804617846c7fa1c5253c8d86e8d3b1ee3/public/assets/coding.svg"
+            className=""
+            alt=""
+          />
           <h3 className="text-lg font-medium text-dark-100 capitalize">
             uI/uX design
           </h3>
@@ -30,7 +38,11 @@ const Myservices = () => {
           </p>
         </div>
         <div className="bg-light-400 flex flex-col items-center gap-y-3 justify-center h-56 w-full">
-          <img src="/assets/Microphone.svg" className="" alt="" />
+          <img
+            src="https://raw.githubusercontent.com/monanksojitra/light-portfolio-live-react-tailwind/8224ab8804617846c7fa1c5253c8d86e8d3b1ee3/public/assets/Microphone.svg"
+            className=""
+            alt=""
+          />
           <h3 className="text-lg font-medium text-dark-100 capitalize">
             sound design
           </h3>
@@ -39,7 +51,11 @@ const Myservices = () => {
           </p>
         </div>
         <div className="bg-light-400 flex flex-col items-center gap-y-3 justify-center h-56 w-full">
-          <img src="/assets/Ad-pop-up.svg" className="" alt="" />
+          <img
+            src="https://raw.githubusercontent.com/monanksojitra/light-portfolio-live-react-tailwind/8224ab8804617846c7fa1c5253c8d86e8d3b1ee3/public/assets/Group.svg"
+            className=""
+            alt=""
+          />
           <h3 className="text-lg font-medium text-dark-100 capitalize">
             game design
           </h3>
@@ -48,7 +64,11 @@ const Myservices = () => {
           </p>
         </div>
         <div className="bg-light-400 flex flex-col items-center gap-y-3 justify-center h-56 w-full">
-          <img src="/assets/Group.svg" className="" alt="" />
+          <img
+            src="https://raw.githubusercontent.com/monanksojitra/light-portfolio-live-react-tailwind/8224ab8804617846c7fa1c5253c8d86e8d3b1ee3/public/assets/illustration.svg"
+            className=""
+            alt=""
+          />
           <h3 className="text-lg font-medium text-dark-100 capitalize">
             photography
           </h3>
