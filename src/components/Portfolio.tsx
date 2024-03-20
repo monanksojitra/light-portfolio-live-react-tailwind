@@ -13,31 +13,32 @@ const Portfolio = () => {
     "https://qph.cf2.quoracdn.net/main-qimg-847573c516a337b68badf391484e4b3e-lq",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF95mEEcukA3SDULngTpcmR3BV6L2BCkxnuSKU96Gn1g&s",
   ];
+
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center w-full overflow-hidden">
       <Heading
         subtitel={
           "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum"
         }
         titel={"Portfolio"}
       />
-      <div className="my-11">
-        <ul className="text-lg font-medium flex items-center gap-x-10 text-dark-100">
-          <li className="text-primary">All categories</li>
-          <li>UI Design</li>
-          <li>Web Templates</li>
-          <li>Logo</li>
-          <li>Branding</li>
+      <div className="my-11 ">
+        <ul className="text-lg font-medium flex max-lg:flex-wrap max-lg:mx-10 items-center gap-y-2 gap-x-10 text-dark-100 ">
+          <li className="text-primary cursor-pointer">All categories</li>
+          <li className="cursor-pointer">UI Design</li>
+          <li className="cursor-pointer">Web Templates</li>
+          <li className="cursor-pointer">Logo</li>
+          <li className="cursor-pointer">Branding</li>
         </ul>
       </div>
-      <div className="grid grid-cols-3 w-full px-7 gap-5">
-        <div className="bg-primary flex flex-col items-center gap-y-3 justify-center h-72 w-full">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 w-full px-7 gap-5">
+        <div className="bg-primary cursor-pointer flex flex-col items-center gap-y-3 justify-center h-72 w-full">
           <IconPlus size={46} />
         </div>
         {imgdata.map((src) => (
           <div
             key={src}
-            className="flex flex-col items-center gap-y-3 justify-center h-[300px] w-full"
+            className="flex cursor-pointer flex-col items-center gap-y-3 justify-center h-[300px] w-full"
           >
             <img src={src} className="h-full object-cover" alt="" />
           </div>

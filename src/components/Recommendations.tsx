@@ -11,7 +11,7 @@ const Recommendations = () => {
         }
         titel={"recommendations"}
       />
-      <div className="grid grid-cols-3 gap-x-6 mx-8 mt-12">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mx-8 mt-12">
         <div className="bg-light-400 flex flex-col items-start gap-y-3 p-5 justify-center">
           <div className="flex gap-x-3">
             <IconStar color="#FFB400" fill="#FFB400" size={18} />

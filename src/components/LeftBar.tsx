@@ -43,7 +43,7 @@ const LeftBar = () => {
             alt=""
             className="rounded-full h-40 aspect-square"
           />
-          <div className="absolute h-4 right-24 bottom-2 aspect-square rounded-full bg-green-500"></div>
+          <div className="absolute h-4 right-6 bottom-2 aspect-square rounded-full bg-green-500"></div>
         </div>
         <div className="pt-6 text-center space-y-2.5">
           <h3 className="text-lg font-semibold text-dark-100">
@@ -57,7 +57,7 @@ const LeftBar = () => {
           {socialLink.map((item) => (
             <div
               key={item.id}
-              className="bg-primary h-6 flex items-center justify-center aspect-square rounded-full"
+              className="bg-primary h-6 flex items-center justify-center aspect-square rounded-full cursor-pointer"
             >
               <item.Icon color="black" size={16} />
             </div>
@@ -122,7 +122,7 @@ const LeftBar = () => {
         </ul>
       </div>
 
-      <div className="flex gap-3 items-center bg-primary justify-center h-10 my-6">
+      <div className="flex gap-3 items-center bg-primary justify-center h-10 my-6 cursor-pointer">
         <p className="text-sm font-semibold text-dark-100 uppercase">
           Download cv
         </p>

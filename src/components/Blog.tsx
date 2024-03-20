@@ -21,7 +21,7 @@ const Blog = () => {
         }
         titel={"Blog"}
       />
-      <div className="grid grid-cols-3 w-full px-7 gap-5 mt-12">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 w-full px-7 gap-5 mt-12">
         <div className="bg-light-400 flex flex-col items-center gap-y-3 justify-center w-full">
           <div className="h-72">
             <img
@@ -38,7 +38,7 @@ const Blog = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
               nulla diam in ac dictum a urna{" "}
             </p>
-            <div className="text-lg font-medium flex gap-x-3 py-2 text-primary items-center">
+            <div className="text-lg cursor-pointer font-medium flex gap-x-3 py-2 text-primary items-center">
               <h4>Learn more</h4>
               <div className="h-3 aspect-square">
                 <IconChevronRight size={14} />
@@ -62,7 +62,7 @@ const Blog = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
               nulla diam in ac dictum a urna{" "}
             </p>
-            <div className="text-lg font-medium flex gap-x-3 py-2 text-primary items-center">
+            <div className="text-lg cursor-pointer font-medium flex gap-x-3 py-2 text-primary items-center">
               <h4>Learn more</h4>
               <div className="h-3 aspect-square">
                 <IconChevronRight size={14} />
@@ -86,7 +86,7 @@ const Blog = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae
               nulla diam in ac dictum a urna{" "}
             </p>
-            <div className="text-lg font-medium flex gap-x-3 py-2 text-primary items-center">
+            <div className="text-lg cursor-pointer font-medium flex gap-x-3 py-2 text-primary items-center">
               <h4>Learn more</h4>
               <div className="h-3 aspect-square">
                 <IconChevronRight size={14} />

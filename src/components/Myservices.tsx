@@ -4,13 +4,13 @@ import Heading from "../utils/Heading";
 
 const Myservices = () => {
   return (
-    <div className="flex flex-col gap-y-12 items-center justify-center mt-36">
+    <div className="flex flex-col gap-y-12 items-center justify-center mt-20 lg:mt-36">
       <Heading
         titel="My Services"
         subtitel=" Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. lorem ipsum"
       />
-      <div className="grid grid-cols-3 w-full px-7 gap-5">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 w-full px-7 gap-5">
         <div className="bg-light-400 flex flex-col items-center gap-y-3 justify-center h-56 w-full">
           <img src="/assets/coding.svg" className="" alt="" />
           <h3 className="text-lg font-medium text-dark-100 capitalize">

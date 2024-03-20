@@ -21,7 +21,7 @@ const Priceplans = () => {
         }
         titel={"Price plans"}
       />
-      <div className="grid grid-cols-3 gap-x-6 mx-8 mt-12">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mx-8 mt-12">
         <div className="bg-light-400 flex flex-col text-dark-100 items-center capitalize pt-14">
           <h2 className="text-2xl font-semibold ">silver</h2>
           <div className="flex gap-x-3 pt-5 items-baseline">
@@ -43,7 +43,7 @@ const Priceplans = () => {
               </li>
             ))}
           </ul>
-          <div className="h-9 shadow-xl flex items-center justify-center rounded-full px-8 my-8 text-sm font-semibold">
+          <div className="h-9 cursor-pointer shadow-xl flex items-center justify-center rounded-full px-8 my-8 text-sm font-semibold">
             <p>ORDER NOW</p>
           </div>
         </div>
@@ -71,7 +71,7 @@ const Priceplans = () => {
               </li>
             ))}
           </ul>
-          <div className="h-9 shadow-xl rounded-full flex items-center justify-center bg-primary px-8 my-8 text-sm font-semibold">
+          <div className="h-9 shadow-xl rounded-full flex items-center justify-center bg-primary px-8 my-8 text-sm font-semibold cursor-pointer">
             <p>ORDER NOW</p>
           </div>
         </div>
@@ -93,7 +93,7 @@ const Priceplans = () => {
               </li>
             ))}
           </ul>
-          <div className="h-9 flex items-center justify-center shadow-xl rounded-full px-8 my-8 text-sm font-semibold">
+          <div className="h-9 cursor-pointer flex items-center justify-center shadow-xl rounded-full px-8 my-8 text-sm font-semibold">
             <p>ORDER NOW</p>
           </div>
         </div>
