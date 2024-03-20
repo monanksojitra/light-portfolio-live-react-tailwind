@@ -40,7 +40,11 @@ const Hero = () => {
         onMouseDown={handeloff}
       >
         <div className="lg:order-2">
-          <img src="/assets/person.png" alt="" className="" />
+          <img
+            src="https://github.com/monanksojitra/light-portfolio-live-react-tailwind/assets/person.png"
+            alt=""
+            className=""
+          />
         </div>
         <div className="p-4 md:py-12 lg:p-8  lg:col-span-2 lg:order-1">
           <p className="text-4xl lg:text-5xl font-bold text-dark-100 leading-tight">

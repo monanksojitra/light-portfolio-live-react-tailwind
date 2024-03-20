@@ -5,5 +5,5 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
 
-  base: "/light_portfolio_site_live/",
+  base: "/light-portfolio-live-react-tailwind/",
 });

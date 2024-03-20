@@ -38,9 +38,9 @@ const LeftBar = () => {
       <div className="flex flex-col items-center justify-center border-b-2 border-b-dark-500/50 pb-6">
         <div className="flex relative items-center justify-center rounded-full">
           <img
-            src="/assets/logo.jpg"
+            src="https://www.creativefabrica.com/wp-content/uploads/2022/01/09/Initial-MJ-letter-Logo-Design-Template-Graphics-23200133-1.jpg"
             alt=""
-            className="rounded-full h-40 aspect-square"
+            className="rounded-full h-40 aspect-square object-cover"
           />
           <div className="absolute h-4 right-6 bottom-2 aspect-square rounded-full bg-green-500"></div>
         </div>
