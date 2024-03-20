@@ -11,7 +11,11 @@ const Navbar = ({ showProfile, showMenu }: propType) => {
         className="h-10 aspect-square rounded-full border-2 border-primary cursor-pointer"
         onClick={() => showProfile(true)}
       >
-        <img src="/assets/logo.jpg" alt="" className="rounded-full" />
+        <img
+          src="https://raw.githubusercontent.com/monanksojitra/light-portfolio-live-react-tailwind/main/public/assets/logo.jpg"
+          alt=""
+          className="rounded-full"
+        />
       </div>
       <div>
         <p className="uppercase text-sm font-bold text-dark-100">

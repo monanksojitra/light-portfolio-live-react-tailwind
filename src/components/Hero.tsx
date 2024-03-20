@@ -41,7 +41,7 @@ const Hero = () => {
       >
         <div className="lg:order-2">
           <img
-            src="https://github.com/monanksojitra/light-portfolio-live-react-tailwind/assets/person.png"
+            src="https://raw.githubusercontent.com/monanksojitra/light-portfolio-live-react-tailwind/main/public/assets/person.png"
             alt=""
             className=""
           />
